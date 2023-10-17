@@ -3,8 +3,8 @@ import './Footer.css';
 
 export default function Footer(){
     return(
-        <di>
-            <p>Aqui é o Footer</p>
-        </di>
+        <div className="Footer" id="footer">
+            <p id="last">criado por <strong>J</strong>ean <stong>W</stong>ill    usando <strong>React</strong></p>
+        </div>
     )
 };
